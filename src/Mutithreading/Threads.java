@@ -16,5 +16,4 @@ public class Threads {
 		Thread t = Thread.currentThread();
 		System.out.println(t);
 	}
-
 }
