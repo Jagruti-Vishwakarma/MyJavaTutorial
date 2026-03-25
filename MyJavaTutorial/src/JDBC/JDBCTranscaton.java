@@ -32,7 +32,7 @@ public class JDBCTranscaton {
 	    	 //Create connection
 	    	  con = DriverManager.getConnection(url, user, pass);
 	    	 
-	    	 //Preepared Statement
+	    	 //Prepared Statement
 	    	 con.setAutoCommit(false);
 	    	 pst1 = con.prepareStatement(sql1);
 	    	 pst2 = con.prepareStatement(sql2);
